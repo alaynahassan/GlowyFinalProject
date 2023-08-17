@@ -9,8 +9,7 @@ import SwiftUI
 
 struct FifthView: View {
     var body: some View {
-        
-        Text("Here is the community page which is going to hold the articles!!! > hadiya's part")
+        Text("here is something")
     }
 }
 
