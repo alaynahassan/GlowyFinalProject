@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D2C1CF2A8FB90C00A4115B /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1CE2A8FB90C00A4115B /* NewToDoView.swift */; };
+		37D2C1D12A8FB92F00A4115B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1D02A8FB92F00A4115B /* ToDoItem.swift */; };
+		37D2C1D32A8FB9A500A4115B /* photofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1D22A8FB9A500A4115B /* photofile.swift */; };
+		37D2C1D52A8FB9D700A4115B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1D42A8FB9D700A4115B /* ImagePicker.swift */; };
+		37D2C1D82A8FBA2900A4115B /* GlowyFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1D62A8FBA2900A4115B /* GlowyFinalProject.xcdatamodeld */; };
+		37D2C1DA2A8FBA3E00A4115B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2C1D92A8FBA3E00A4115B /* Persistence.swift */; };
 		599FE17A2A8F9D61004BEF3B /* SkinQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */; };
 		AA52E92A2A8BF8A100B61D6A /* GlowyFinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E9292A8BF8A100B61D6A /* GlowyFinalProjectApp.swift */; };
 		AA52E92C2A8BF8A100B61D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E92B2A8BF8A100B61D6A /* ContentView.swift */; };
@@ -19,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37D2C1CE2A8FB90C00A4115B /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		37D2C1D02A8FB92F00A4115B /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		37D2C1D22A8FB9A500A4115B /* photofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photofile.swift; sourceTree = "<group>"; };
+		37D2C1D42A8FB9D700A4115B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		37D2C1D72A8FBA2900A4115B /* GlowyFinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlowyFinalProject.xcdatamodel; sourceTree = "<group>"; };
+		37D2C1D92A8FBA3E00A4115B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinQuizView.swift; sourceTree = "<group>"; };
 		AA52E9262A8BF8A100B61D6A /* GlowyFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowyFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA52E9292A8BF8A100B61D6A /* GlowyFinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowyFinalProjectApp.swift; sourceTree = "<group>"; };
@@ -67,6 +79,10 @@
 				AAED005C2A8E909C00FECCE4 /* ThridView.swift */,
 				599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */,
 				AAED005E2A8E90B000FECCE4 /* FourthView.swift */,
+				37D2C1D22A8FB9A500A4115B /* photofile.swift */,
+				37D2C1D42A8FB9D700A4115B /* ImagePicker.swift */,
+				37D2C1CE2A8FB90C00A4115B /* NewToDoView.swift */,
+				37D2C1D02A8FB92F00A4115B /* ToDoItem.swift */,
 				AAED00602A8E90BC00FECCE4 /* FifthView.swift */,
 				AAED00622A8EA5A200FECCE4 /* Assets.xcassets */,
 				AA52E92F2A8BF8A300B61D6A /* Preview Content */,
@@ -78,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				AA52E9302A8BF8A300B61D6A /* Preview Assets.xcassets */,
+				37D2C1D92A8FBA3E00A4115B /* Persistence.swift */,
+				37D2C1D62A8FBA2900A4115B /* GlowyFinalProject.xcdatamodeld */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -153,12 +171,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAED005D2A8E909C00FECCE4 /* ThridView.swift in Sources */,
+				37D2C1D82A8FBA2900A4115B /* GlowyFinalProject.xcdatamodeld in Sources */,
 				AAED005B2A8E906B00FECCE4 /* SecondView.swift in Sources */,
+				37D2C1D32A8FB9A500A4115B /* photofile.swift in Sources */,
+				37D2C1D12A8FB92F00A4115B /* ToDoItem.swift in Sources */,
 				AA52E92C2A8BF8A100B61D6A /* ContentView.swift in Sources */,
 				599FE17A2A8F9D61004BEF3B /* SkinQuizView.swift in Sources */,
+				37D2C1DA2A8FBA3E00A4115B /* Persistence.swift in Sources */,
 				AA52E92A2A8BF8A100B61D6A /* GlowyFinalProjectApp.swift in Sources */,
+				37D2C1D52A8FB9D700A4115B /* ImagePicker.swift in Sources */,
 				AAED00612A8E90BC00FECCE4 /* FifthView.swift in Sources */,
 				AAED005F2A8E90B000FECCE4 /* FourthView.swift in Sources */,
+				37D2C1CF2A8FB90C00A4115B /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37D2C1D62A8FBA2900A4115B /* GlowyFinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37D2C1D72A8FBA2900A4115B /* GlowyFinalProject.xcdatamodel */,
+			);
+			currentVersion = 37D2C1D72A8FBA2900A4115B /* GlowyFinalProject.xcdatamodel */;
+			path = GlowyFinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA52E91E2A8BF8A100B61D6A /* Project object */;
 }
