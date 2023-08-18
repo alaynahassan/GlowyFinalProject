@@ -199,7 +199,7 @@ struct ContentView: View {
                                         .aspectRatio(contentMode: .fit)
                                     
                                 }
-                                NavigationLink(destination: FifthView()) {
+                                NavigationLink(destination: articles_view()) {
                                     Image("world-icon-png-6")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
