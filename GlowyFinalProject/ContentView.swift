@@ -57,7 +57,7 @@ struct ContentView: View {
                 
                 VStack{
                     
-                    Button("Check your skin to-do-list for today! >>>>") {
+                    Button("Check your skin to-do-list for today! >>>") {
                         /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                     }
                     .font(.custom("Arial Rounded MT Bold", size: 18))
