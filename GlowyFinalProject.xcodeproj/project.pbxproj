@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		599FE17A2A8F9D61004BEF3B /* SkinQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */; };
 		AA52E92A2A8BF8A100B61D6A /* GlowyFinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E9292A8BF8A100B61D6A /* GlowyFinalProjectApp.swift */; };
 		AA52E92C2A8BF8A100B61D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA52E92B2A8BF8A100B61D6A /* ContentView.swift */; };
 		AA52E9312A8BF8A300B61D6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA52E9302A8BF8A300B61D6A /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinQuizView.swift; sourceTree = "<group>"; };
 		AA52E9262A8BF8A100B61D6A /* GlowyFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlowyFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA52E9292A8BF8A100B61D6A /* GlowyFinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowyFinalProjectApp.swift; sourceTree = "<group>"; };
 		AA52E92B2A8BF8A100B61D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				AA52E92B2A8BF8A100B61D6A /* ContentView.swift */,
 				AAED005A2A8E906B00FECCE4 /* SecondView.swift */,
 				AAED005C2A8E909C00FECCE4 /* ThridView.swift */,
+				599FE1792A8F9D61004BEF3B /* SkinQuizView.swift */,
 				AAED005E2A8E90B000FECCE4 /* FourthView.swift */,
 				AAED00602A8E90BC00FECCE4 /* FifthView.swift */,
 				AAED00622A8EA5A200FECCE4 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 				AAED005D2A8E909C00FECCE4 /* ThridView.swift in Sources */,
 				AAED005B2A8E906B00FECCE4 /* SecondView.swift in Sources */,
 				AA52E92C2A8BF8A100B61D6A /* ContentView.swift in Sources */,
+				599FE17A2A8F9D61004BEF3B /* SkinQuizView.swift in Sources */,
 				AA52E92A2A8BF8A100B61D6A /* GlowyFinalProjectApp.swift in Sources */,
 				AAED00612A8E90BC00FECCE4 /* FifthView.swift in Sources */,
 				AAED005F2A8E90B000FECCE4 /* FourthView.swift in Sources */,
