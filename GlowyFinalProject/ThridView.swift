@@ -11,13 +11,13 @@ struct ThridView: View {
     let text = """
     How It Works:
     
-    1. Start by answering a few quick questions about your skin.
+    1. Start by answering a few quick questions about your skin
 
-    2. We will assess your responses to determine your primary skin type (e.g., dry, normal, oily, combination).
+    2. We will assess your responses to determine your primary skin type (e.g., dry, normal, oily, combination)
 
-    3. Receive your personalized insights into specific products and ingredients that can meet your skin's unique requirements.
+    3. Receive your personalized insights into specific products and ingredients that can meet your skin's unique requirements
 
-    Using your personalized recommendations, you can confidently choose the right cleansers, moisturizers, serums, and treatments to achieve your skincare goals.
+    Using your personalized recommendations, you can confidently choose the right cleansers, moisturizers, serums, and treatments to achieve your skincare goals
 
     """
     

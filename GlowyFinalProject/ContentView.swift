@@ -37,7 +37,7 @@ struct ContentView: View {
                 }
                 
                 
-                VStack (spacing: -30) {
+                VStack (spacing: -20) {
                     Text("Hello Jane,")
                         .font(.title)
                         .multilineTextAlignment(.leading)

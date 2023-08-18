@@ -429,7 +429,7 @@ We Suggest:
 
 - Always stay fully hyrdated! Staying hydrated from the inside out is important
 
-- Avoid hot water while cleansing as it may dry out your skin more- use lukewarm water!
+- Avoid hot water while cleansing as it may dry out your skin more- use warm water!
 
 """)
                         .font(.custom("Arial Rounded MT Bold", size: 18))
