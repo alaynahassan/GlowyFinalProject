@@ -18,15 +18,6 @@ struct ContentView: View {
                     
                     HStack {
                         
-                        Menu(/*@START_MENU_TOKEN@*/"Menu"/*@END_MENU_TOKEN@*/) {
-                            Text("Diary")
-                            Text("Skincare Quiz!")
-                            Text("Community")
-
-                            Spacer()
-                            
-                            
-                        }
                        
                         Spacer()
                             .padding()
