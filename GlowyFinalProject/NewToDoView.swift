@@ -20,14 +20,13 @@ struct NewToDoView: View {
     
     var body: some View {
         ZStack{
-            Color(red: 0.793, green: 0.853, blue: 0.642)
-                .ignoresSafeArea()
+            
             VStack {
                 HStack
                 { VStack {
                     Spacer()
                     Text("Skin State:")
-                        .foregroundColor(Color(red: 0.482, green: 0.356, blue: 0.545))
+                        .foregroundColor(Color.pink.opacity(0.6))
                         .font(.title)
                         .fontWeight(.bold)
                     TextField("", text: $title).padding()
@@ -35,7 +34,7 @@ struct NewToDoView: View {
                         .cornerRadius(15)
                         .padding()
                     Text("Today's date:")
-                        .foregroundColor(Color(red: 0.482, green: 0.356, blue: 0.545))
+                        .foregroundColor(Color.pink.opacity(0.6))
                         .font(.title)
                         .fontWeight(.bold)
                     TextField("", text: $date).padding()
@@ -54,16 +53,16 @@ struct NewToDoView: View {
                         self.sourceType = .camera
                         isImagePickerShowing = true                }
                     .buttonStyle(.borderedProminent)
-                    .tint(Color(red: 0.482, green: 0.356, blue: 0.545))
+                    .tint(Color.pink.opacity(0.6))
                     .cornerRadius(100)
-                    .foregroundColor(Color(red: 0.936, green: 0.827, blue: 0.984))
+                    .foregroundColor(Color.white)
                     Button("Select a Photo") {
                         self.sourceType = .photoLibrary
                         isImagePickerShowing = true }
                     .buttonStyle(.borderedProminent)
-                    .tint(Color(red: 0.482, green: 0.356, blue: 0.545))
+                    .tint(Color.pink.opacity(0.6))
                     .cornerRadius(100)
-                    .foregroundColor(Color(red: 0.936, green: 0.827, blue: 0.984))
+                    .foregroundColor(Color.white)
                     
                 }
             }
@@ -76,9 +75,9 @@ struct NewToDoView: View {
             }
             
             .buttonStyle(.borderedProminent)
-            .tint(Color(red: 0.482, green: 0.356, blue: 0.545))
+            .tint(Color.pink.opacity(0.6))
             .cornerRadius(100)
-            .foregroundColor(Color(red: 0.936, green: 0.827, blue: 0.984))
+            .foregroundColor(Color.white)
             
         }
         

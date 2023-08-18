@@ -224,7 +224,7 @@ struct ContentView: View {
                 }
                 .frame(width: 500, height: 80)
                 .position(x: 200, y: 220)
-            }
+            } .accentColor(.pink.opacity(0.7))
         }
 
         }

@@ -20,14 +20,16 @@ struct FourthView: View {
     
     var body: some View {
         ZStack
-        { Color(red: 0.793, green: 0.853, blue: 0.642)
-                .ignoresSafeArea()
+        {
             VStack {
                 HStack {
                     Text("Skin Diary")
-                        .font(.system(size: 40))
-                        .fontWeight(.black)
-                        .foregroundColor((Color(red: 0.482, green: 0.356, blue: 0.545)))
+                        .font(.custom("Arial Rounded MT Bold", size: 50))
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                        .shadow(radius: 10)
+                        .foregroundColor(Color.pink.opacity(0.6))
+                    
                     Spacer()
                     
                     Button(action: {
@@ -38,9 +40,9 @@ struct FourthView: View {
                         
                     }
                     .buttonStyle(.borderedProminent)
-                    .tint(Color(red: 0.482, green: 0.356, blue: 0.545))
+                    .tint(Color.pink.opacity(0.6))
                     .cornerRadius(100)
-                    .foregroundColor(Color(red: 0.936, green: 0.827, blue: 0.984))
+                    .foregroundColor(Color.white.opacity(0.6))
                 }
                 .padding()
                 Spacer()
@@ -59,8 +61,7 @@ struct FourthView: View {
                 .listStyle(.plain)
                 .animation(.easeOut, value: showNewTask)
                 
-                Color(red: 0.793, green: 0.853, blue: 0.642)
-                    .ignoresSafeArea()
+               
                 
             }
             
