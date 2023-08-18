@@ -36,6 +36,7 @@ struct ThridView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                     .shadow(radius: 10)
+                    .foregroundColor(.pink.opacity(0.5))
                     
                     Text(text)
                         .font(.custom("Arial Rounded MT Bold", size: 17))

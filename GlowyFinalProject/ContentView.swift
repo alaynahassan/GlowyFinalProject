@@ -39,16 +39,20 @@ struct ContentView: View {
                 
                 VStack (spacing: -20) {
                     Text("Hello Jane,")
-                        .font(.title)
+                        .font(.custom("Arial Rounded MT Bold", size: 30))
                         .multilineTextAlignment(.leading)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(.purple)
                         .padding()
+                        .shadow(radius: 10)
+                        .offset(x:-100)
+                        .foregroundColor(Color.pink.opacity(0.6))
+                        
+                    
                     Text("Let's see what we can do for you skin today!")
+                        .font(.custom("Arial Rounded MT Bold", size: 18))
                         .multilineTextAlignment(.leading)
-                        .frame(maxWidth: .infinity, alignment: .leading)
                         .padding()
-                        .foregroundColor(Color(hue: 0.829, saturation: 0.289, brightness: 0.778))
+                        .shadow(radius: 10)
+                        .offset(x:-35)
                 }
                 
                 VStack{
@@ -56,11 +60,13 @@ struct ContentView: View {
                     Button("Check your skin to-do-list for today! >>>>") {
                         /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .foregroundColor(Color(hue: 0.829, saturation: 0.289, brightness: 0.778))
-                    .padding()
-                    .border(.black)
-                    .padding()
+                    .font(.custom("Arial Rounded MT Bold", size: 18))
+                    .padding(8)
+                    .background(Color.pink.opacity(0.1))
+                    .accentColor(Color.pink.opacity(0.6))
+                    .cornerRadius(5)
+                    .shadow(radius: 10)
+                    
                     
                     
                 }
@@ -68,10 +74,14 @@ struct ContentView: View {
                 
                 VStack (spacing: 300) {
                     Text("Today's Product and Article Sugesstions")
-                        .font(.title3)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(Color(hue: 0.829, saturation: 0.289, brightness: 0.778))
+                    
+                        .font(.custom("Arial Rounded MT Bold", size: 18))
+                        .multilineTextAlignment(.leading)
                         .padding()
+                        .shadow(radius: 10)
+                   
+                    
+                     
                     
                 }
                 
@@ -97,6 +107,7 @@ struct ContentView: View {
                             .cornerRadius(15.0)
                             .position(x: 180, y: 110)
                             .padding()
+                            .shadow(radius: 7)
                         
                         
                         Rectangle()
@@ -116,6 +127,7 @@ struct ContentView: View {
                             .cornerRadius(15.0)
                             .position(x: 180, y: 110)
                             .padding()
+                            .shadow(radius: 7)
                         
                 
                         
@@ -135,6 +147,8 @@ struct ContentView: View {
                                 .position(x: 180, y: 200)
                                 .opacity(0.5)
                                 .padding()
+                                .shadow(radius: 7)
+                            
                             
                             Rectangle()
                                 .frame(width: 170, height: 100)
@@ -144,6 +158,8 @@ struct ContentView: View {
                                 .opacity(0.5)
                                 .position(x: 180, y: 200)
                                 .padding()
+                                .shadow(radius: 7)
+                                
                             
                             
                             
@@ -198,12 +214,13 @@ struct ContentView: View {
                 } label: {
                     Rectangle()
                         .frame(width: 290, height: 70)
-                        .foregroundColor(Color(hue: 0.829, saturation: 0.289, brightness: 0.778))
+                        .foregroundColor(Color.pink.opacity(0.5))
                         .opacity(0.5)
                         .cornerRadius(60)
+                        .shadow(radius: 7)
                 }
                 .frame(width: 500, height: 80)
-                .position(x: 200, y: 215)
+                .position(x: 200, y: 220)
             }
         }
 
