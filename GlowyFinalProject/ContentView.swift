@@ -193,7 +193,7 @@ struct ContentView: View {
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
                                 }
-                                NavigationLink(destination:FourthView()) {
+                                NavigationLink(destination: FourthView()) {
                                     Image("diary")
                                         .resizable(resizingMode: .stretch)
                                         .aspectRatio(contentMode: .fit)
