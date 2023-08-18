@@ -27,6 +27,7 @@ struct ContentView: View {
                             Circle()
                                 .frame(width: 50, height: 30)
                                 .opacity(0.5)
+                                .foregroundColor(Color.pink.opacity(0.7))
                             
                         }
                     }
@@ -57,7 +58,7 @@ struct ContentView: View {
                 
                 VStack{
                     
-                    Button("Check your skin to-do-list for today! >>>>") {
+                    Button("Check your skin to-do-list for today! >>>") {
                         /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                     }
                     .font(.custom("Arial Rounded MT Bold", size: 18))
@@ -148,6 +149,7 @@ struct ContentView: View {
                                 .opacity(0.5)
                                 .padding()
                                 .shadow(radius: 7)
+                                .foregroundColor(Color.pink.opacity(0.6))
                             
                             
                             Rectangle()
@@ -159,6 +161,7 @@ struct ContentView: View {
                                 .position(x: 180, y: 200)
                                 .padding()
                                 .shadow(radius: 7)
+                                .foregroundColor(Color.pink.opacity(0.6))
                                 
                             
                             

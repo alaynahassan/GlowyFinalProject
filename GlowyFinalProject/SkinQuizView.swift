@@ -75,7 +75,7 @@ struct SkinQuizView: View {
                             .padding()
                             .shadow(radius: 10)
                         
-                        Button("Not very often") {
+                        Button("Not so often") {
                             drySkin += 1
                         } .font(.custom("Arial Rounded MT Bold", size: 20))
                             .padding(8)
